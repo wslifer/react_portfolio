@@ -9,11 +9,32 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
+import { black } from "material-ui/styles/colors";
+
+const useStyles = makeStyles({
+  nav: {
+    background: "#0276aa",
+    marginBottom: 15,
+    border: 0,
+    borderRadius: 3,
+    color: "black",
+  },
+  card: {
+    height: 750,
+    width: 950,
+    marginLeft: "auto",
+    marginRight: "auto",
+    fontSize: 32,
+    textAlign: "center",
+    background: "black",
+  },
+});
 
 export default function NoMatch() {
+  const style = useStyles();
   return (
     <Grid>
-      <AppBar position="static" bgcolor="info.main">
+      <AppBar className={style.nav} position="static">
         <Toolbar>
           <IconButton edge="start" color="inherit" aria-label="menu">
             <MenuIcon />
@@ -21,7 +42,7 @@ export default function NoMatch() {
           <Typography variant="h5">Slifer Portfolio</Typography>
         </Toolbar>
       </AppBar>
-      <Card>
+      <Card className={style.card}>
         <CardMedia></CardMedia>
         <CardContent>404! Page Not Found!</CardContent>
       </Card>
