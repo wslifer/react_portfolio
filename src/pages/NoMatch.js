@@ -9,7 +9,6 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import { black } from "material-ui/styles/colors";
 
 const useStyles = makeStyles({
   nav: {
@@ -21,12 +20,18 @@ const useStyles = makeStyles({
   },
   card: {
     height: 750,
-    width: 950,
+    width: 1200,
+    background: "#1e211f",
     marginLeft: "auto",
     marginRight: "auto",
     fontSize: 32,
     textAlign: "center",
-    background: "black",
+    color: "white",
+  },
+  cardPic: {
+    margin: "auto",
+    height: 450,
+    width: 450,
   },
 });
 
@@ -43,8 +48,8 @@ export default function NoMatch() {
         </Toolbar>
       </AppBar>
       <Card className={style.card}>
-        <CardMedia></CardMedia>
         <CardContent>404! Page Not Found!</CardContent>
+        <CardMedia className={style.cardPic} image="../assets/images/404.png" />
       </Card>
     </Grid>
   );
