@@ -13,10 +13,11 @@ const useStyles = makeStyles({
     marginBottom: 15,
     border: 0,
     borderRadius: 3,
-    color: "black",
+    color: "white",
   },
   button: {
     marginLeft: "auto",
+    color: "white",
   },
 });
 
@@ -27,15 +28,15 @@ export default function Navbar() {
     <Grid item xs={12}>
       <AppBar className={style.nav} position="static" item xs>
         <Toolbar>
-          <Typography variant="h5">Slifer Portfolio</Typography>
+          <Typography variant="h4">Slifer Portfolio</Typography>
           <ButtonGroup
             className={style.button}
             size="large"
             aria-label="large outlined primary button group"
           >
-            <Button>About</Button>
-            <Button>Portfolio</Button>
-            <Button>Contact</Button>
+            <Button className={style.button}>About</Button>
+            <Button className={style.button}>Portfolio</Button>
+            <Button className={style.button}>Contact</Button>
           </ButtonGroup>
         </Toolbar>
       </AppBar>
