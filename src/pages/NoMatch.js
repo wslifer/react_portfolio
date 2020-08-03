@@ -19,8 +19,8 @@ const useStyles = makeStyles({
   },
   cardPic: {
     margin: "auto",
-    height: 450,
-    width: 450,
+    height: 650,
+    width: 650,
   },
 });
 
@@ -31,7 +31,10 @@ export default function NoMatch() {
     <Grid item xs>
       <Card className={style.card}>
         <CardContent>404! Page Not Found!</CardContent>
-        <CardMedia className={style.cardPic} image="../assets/images/404.png" />
+        <CardMedia
+          className={style.cardPic}
+          image={require("../assets/images/404.png")}
+        />
       </Card>
     </Grid>
   );
