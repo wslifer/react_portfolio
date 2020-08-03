@@ -47,9 +47,6 @@ export default function About() {
             Hello, and welcome to my portfolio!{" "}
           </Typography>
           <hr />
-          <Typography variant="h6" className={style.heading}>
-            A little about me
-          </Typography>
           <Typography variant="body1" className={style.textArea}>
             My name is Wesley Eric Slifer and I am a web developer always in
             training. I currently am enrolled in the KU Coding Bootcamp Cohort
@@ -59,20 +56,19 @@ export default function About() {
             I am a self-driven, motivated, hard worker who is always excited to
             work as part of a team. Throughout my life thus far I have dipped
             into several fields of work in order to find my fit. After
-            contemplating what I wanted to do for the rest of my career life I
+            contemplating what I wanted to do for the rest of my life, I
             realized that I have always loved computers and anything to do with
             them. I then decided I wanted to live by the saying 'If you love
             what you do, you will never work a day in your life.'
           </Typography>
           <Typography variant="body1" className={style.textArea}>
             When I enrolled in the coding bootcamp I knew very little about
-            coding and everything I knew was self taught. After working hard
+            coding, and everything I knew was self taught. After working hard
             throughout the class I was able to learn what it takes to be a
-            full-stack web developer. Another key I learned from the bootcamp
-            was how to further my education in the world of programming. Due to
-            the ever changing world of technology I feel that it is a very
-            important skill to be able to continuing learning and to have the
-            drive to do so.
+            full-stack web developer. Another key skill I learned from the
+            bootcamp was how to further my education in the world of
+            programming. Due to the ever changing world of technology, I feel
+            that it is a very important trade to be able to continue learning.
           </Typography>
           <Typography variant="body1" className={style.textArea}>
             As a now full-stack web developer I have experience in using many
