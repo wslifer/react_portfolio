@@ -6,6 +6,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   nav: {
@@ -34,9 +35,15 @@ export default function Navbar() {
             size="large"
             aria-label="large outlined primary button group"
           >
-            <Button className={style.button}>About</Button>
-            <Button className={style.button}>Portfolio</Button>
-            <Button className={style.button}>Contact</Button>
+            <Link to="/">
+              <Button className={style.button}>About</Button>
+            </Link>
+            <Link to="/portfolio">
+              <Button className={style.button}>Portfolio</Button>
+            </Link>
+            <Link to="/contact">
+              <Button className={style.button}>Contact</Button>
+            </Link>
           </ButtonGroup>
         </Toolbar>
       </AppBar>
