@@ -34,8 +34,8 @@ export default function Navbar() {
             aria-label="large outlined primary button group"
           >
             <Button>About</Button>
-            <Button>Contact</Button>
             <Button>Portfolio</Button>
+            <Button>Contact</Button>
           </ButtonGroup>
         </Toolbar>
       </AppBar>

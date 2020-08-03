@@ -14,7 +14,8 @@ const useStyles = makeStyles({
   about: {
     color: "white",
     fontSize: 28,
-    background: "#1e211f",
+    background: "#615e57",
+    borderRadius: 3,
   },
   heading: {
     textDecoration: "underline",
