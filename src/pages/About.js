@@ -78,7 +78,8 @@ export default function About() {
             As a now full-stack web developer I have experience in using many
             different technologies to create useful web applications. The
             technologies that I have become proficient in at this time include,
-            but are not limited to.
+            but are not limited to: Front-end: HTML, CSS and Javascript;
+            Back-end: MySql and MongoDB; and libraries: ReactJS and MaterialUI.
           </Typography>
           <hr />
           <Typography variant="body1" className={style.textArea}>
