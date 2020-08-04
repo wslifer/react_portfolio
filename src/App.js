@@ -14,10 +14,10 @@ function App() {
         <Route exact path="/react_portfolio/">
           <About />
         </Route>
-        <Route path="/react_portfolio/Portfolio">
+        <Route exact path="/react_portfolio/Portfolio">
           <Portfolio />
         </Route>
-        <Route path="/react_portfolio/Contact">
+        <Route exact path="/react_portfolio/Contact">
           <Contact />
         </Route>
         <Route path="*">
