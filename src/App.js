@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/react_portfolio/Contact">
           <Contact />
         </Route>
-        <Route path="*">
+        <Route>
           <NoMatch />
         </Route>
       </Switch>
