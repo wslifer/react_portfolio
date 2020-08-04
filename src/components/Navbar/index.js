@@ -35,13 +35,13 @@ export default function Navbar() {
             size="large"
             aria-label="large outlined primary button group"
           >
-            <Link to="/">
+            <Link to="/react_portfolio">
               <Button className={style.button}>About</Button>
             </Link>
-            <Link to="/portfolio">
+            <Link to="/react_portfolio/portfolio">
               <Button className={style.button}>Portfolio</Button>
             </Link>
-            <Link to="/contact">
+            <Link to="/react_portfolio/contact">
               <Button className={style.button}>Contact</Button>
             </Link>
           </ButtonGroup>
