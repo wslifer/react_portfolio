@@ -6,9 +6,6 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
-import { Link } from "react-router-dom";
-import { AutoComplete } from "material-ui";
 
 const useStyles = makeStyles({
   contact: {

@@ -6,10 +6,34 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles({});
+const useStyles = makeStyles({
+  project: {
+    color: "white",
+    fontSize: 28,
+    background: "#615e57",
+    borderRadius: 3,
+    height: 200,
+    marginBottom: 20,
+  },
+});
 
 export default function Portfolio() {
   const style = useStyles();
 
-  return <Grid></Grid>;
+  return (
+    <Grid container spacing={3}>
+      <Grid item xs={4}>
+        <Card className={style.project}></Card>
+        <Card className={style.project}></Card>
+      </Grid>
+      <Grid item xs={4}>
+        <Card className={style.project}></Card>
+        <Card className={style.project}></Card>
+      </Grid>
+      <Grid item xs={4}>
+        <Card className={style.project}></Card>
+        <Card className={style.project}></Card>
+      </Grid>
+    </Grid>
+  );
 }
