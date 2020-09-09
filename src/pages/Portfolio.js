@@ -11,6 +11,10 @@ const useStyles = makeStyles({
       borderRadius: 0,
     },
   },
+  title: {
+    textAlign: "center",
+    margingBottom: 50,
+  },
 });
 
 export default function Portfolio() {
@@ -18,38 +22,12 @@ export default function Portfolio() {
 
   return (
     <Grid style={{ background: "#f5f5f5" }}>
-      <Typography variant="h1">Projects</Typography>
+      <Typography variant="h4" className={style.title}>
+        Projects
+      </Typography>
 
       <div className={style.grid}>
         <Grid container spacing={3}>
-          <Grid item md={4} sm={6} xs={12}>
-            <Paper className={style.paper}>
-              <Card
-                image={quarantinis}
-                title="Bites and Quarantinis"
-                alt="Project Picture"
-                desc="Group project made with APIs, javascript, and html."
-                repo="https://github.com/wslifer/Project_1"
-                link="https://wslifer.github.io/Project_1/"
-                locked={false}
-              />
-            </Paper>
-          </Grid>
-
-          <Grid item md={4} sm={6} xs={12}>
-            <Paper className={style.paper}>
-              <Card
-                image={quarantinis}
-                title="Bites and Quarantinis"
-                alt="Project Picture"
-                desc="Group project made with APIs, javascript, and html."
-                repo="https://github.com/wslifer/Project_1"
-                link="https://wslifer.github.io/Project_1/"
-                locked={false}
-              />
-            </Paper>
-          </Grid>
-
           <Grid item md={4} sm={6} xs={12}>
             <Paper className={style.paper}>
               <Card

@@ -46,12 +46,6 @@ const useStyles = makeStyles({
       opacity: 0.85,
     },
   },
-  /*   info: {
-    padding: spacing(2, 5),
-    "& .MuiTypography-root": {
-      fontFamily: "'Lato', sans-serif",
-    },
-  }, */
   title: {
     color: "#fff",
     textTransform: "uppercase",
@@ -87,7 +81,7 @@ export default function Card(props) {
       }}
     >
       <Link
-        href={props.heroku}
+        href={props.link}
         color="inherit"
         underline="none"
         target="_blank"
@@ -103,7 +97,7 @@ export default function Card(props) {
           <Typography gutterBottom variant="h6" className={style.title}>
             {props.title}
           </Typography>
-          <Typography variant="body1">{props.tools}</Typography>
+          <Typography variant="body1">{props.desc}</Typography>
           <Typography
             variant="body1"
             component="p"
@@ -111,7 +105,7 @@ export default function Card(props) {
           >
             {props.text}
           </Typography>
-          <Link href={props.github} target="_blank" rel="noopener">
+          <Link href={props.repo} target="_blank" rel="noopener">
             <IconButton>
               {props.locked ? (
                 <LockIcon
