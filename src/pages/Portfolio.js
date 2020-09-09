@@ -14,16 +14,16 @@ const useStyles = makeStyles({
 });
 
 export default function Portfolio() {
-  const classes = useStyles();
+  const style = useStyles();
 
   return (
     <Grid style={{ background: "#f5f5f5" }}>
       <Typography variant="h1">Projects</Typography>
 
-      <div className={classes.grid}>
+      <div className={style.grid}>
         <Grid container spacing={3}>
           <Grid item md={4} sm={6} xs={12}>
-            <Paper className={classes.paper}>
+            <Paper className={style.paper}>
               <Card
                 image={quarantinis}
                 title="Bites and Quarantinis"
@@ -37,7 +37,7 @@ export default function Portfolio() {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Paper className={classes.paper}>
+            <Paper className={style.paper}>
               <Card
                 image={quarantinis}
                 title="Bites and Quarantinis"
@@ -51,7 +51,7 @@ export default function Portfolio() {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Paper className={classes.paper}>
+            <Paper className={style.paper}>
               <Card
                 image={quarantinis}
                 title="Bites and Quarantinis"
@@ -65,7 +65,7 @@ export default function Portfolio() {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Paper className={classes.paper}>
+            <Paper className={style.paper}>
               <Card
                 image={quarantinis}
                 title="Bites and Quarantinis"
@@ -79,7 +79,7 @@ export default function Portfolio() {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Paper className={classes.paper}>
+            <Paper className={style.paper}>
               <Card
                 image={quarantinis}
                 title="Bites and Quarantinis"
@@ -93,7 +93,7 @@ export default function Portfolio() {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Paper className={classes.paper}>
+            <Paper className={style.paper}>
               <Card
                 image={quarantinis}
                 title="Bites and Quarantinis"
@@ -107,7 +107,7 @@ export default function Portfolio() {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Paper className={classes.paper}>
+            <Paper className={style.paper}>
               <Card
                 image={quarantinis}
                 title="Bites and Quarantinis"
@@ -121,7 +121,7 @@ export default function Portfolio() {
           </Grid>
 
           <Grid item md={4} sm={6} xs={12}>
-            <Paper className={classes.paper}>
+            <Paper className={style.paper}>
               <Card
                 image={quarantinis}
                 title="Bites and Quarantinis"
