@@ -6,11 +6,6 @@
 
 This application provides a user with my portfolio, an about me page, and a page for getting in touch with me.
 
-## Table of Contents
-
-- [Contributors](##Contributors)
-- [Contact](##Contact)
-
 ## Deployed Application
 
 https://wslifer.github.io/react_portfolio
