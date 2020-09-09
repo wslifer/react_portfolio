@@ -36,17 +36,23 @@ export default function Contact() {
       <Grid item xs>
         <Card item xs className={style.contact}>
           <CardContent>
-            <Button className={style.button} href="https://github.com/wslifer">
+            <Button
+              className={style.button}
+              target="_blank"
+              href="https://github.com/wslifer"
+            >
               Github
             </Button>
             <Button
               className={style.button}
+              target="_blank"
               href="https://www.linkedin.com/in/wesley-slifer"
             >
               LinkedIn
             </Button>
             <Button
               className={style.button}
+              target="_blank"
               href="https://docs.google.com/document/d/1xJyHqfyaGYW9o0bk_da3j560ggTP2LP6BtKD9JMovJM/edit?usp=sharing"
             >
               Resume
