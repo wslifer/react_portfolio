@@ -53,7 +53,7 @@ export default function Portfolio() {
                 image={projectYou}
                 title="Project You"
                 alt="Project Picture"
-                desc="Group project made with APIs, javascript, and html."
+                desc="Group project made with Node.js, Express.js, MySql, Sequelize, and heroku."
                 repo="https://github.com/wslifer/projectYOU"
                 link="https://projectyou.herokuapp.com/"
                 locked={false}
@@ -67,7 +67,7 @@ export default function Portfolio() {
                 image={itTakesAVillage}
                 title="It Take a Village"
                 alt="Project Picture"
-                desc="Group project made with APIs, javascript, and html."
+                desc="Full stack application, utilizing Node.js, Express.js, mongodb, and heroku."
                 repo="https://github.com/wslifer/it-takes-a-village"
                 link="https://stormy-thicket-60781.herokuapp.com/"
                 locked={false}
@@ -95,7 +95,7 @@ export default function Portfolio() {
                 image={teamProGen}
                 title="Team Profile Generator"
                 alt="Project Picture"
-                desc="Group project made with APIs, javascript, and html."
+                desc="Application using javascript to produce an html page of the team you created."
                 repo="https://github.com/wslifer/team-profile-generator"
                 link="https://drive.google.com/file/d/18gA6ISAoiyxPe_O-hkoqC53sdPB-qQf5/view"
                 locked={false}
@@ -109,7 +109,7 @@ export default function Portfolio() {
                 image={emplTracker}
                 title="Employee Tracker"
                 alt="Project Picture"
-                desc="Group project made with APIs, javascript, and html."
+                desc="Application using javascript to keep track of all of your employees and who they report to."
                 repo="https://github.com/wslifer/employee_tracker"
                 link="https://drive.google.com/file/d/1--8FGoylf_rpfDjaK5I4hU7l5jIr2Bo3/view"
                 locked={false}
